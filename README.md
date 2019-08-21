@@ -19,4 +19,8 @@ backend는 node와 express를 사용하여 만든 서버 부분입니다~
    입니다.
 
 -test project 폴더는 연동, 변경 전 front임(신경안써도 , 잘못올림)
+
 -test1.xlsx, test.csv는 db올리는거 실험하던 애들임(신경ㄴㄴㄶㅎㅎ)
+
+앗 그리고 clone 한 후에 코드 수정할 때는 branch 새로 파서 해주세요!!  나중에 제대로 짠 코드만 master에 올려주십쇼!!!!!!!
+
