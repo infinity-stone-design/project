@@ -61,19 +61,13 @@
       </div>
 
       <div id = "next">
-        <router-view/>
+        <router-view></router-view>
       </div>
     
    
 
   </div>
 </template>
-<script>
-
-export default {
-  name: 'App'
-}
-</script>
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap&subset=korean');

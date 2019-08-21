@@ -1,23 +1,22 @@
-//router
-
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import oldman from '@/components/oldman'
+import Mainpage from '@/components/MainPage'
+import DetailPage from '@/components/DetailPage'
 
 Vue.use(Router)
 
-export default new Router({
-  routes: [
+export const router= new Router({
+  mode : 'history',
+  router: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'MainPage',
+      component: Mainpage
     },
     {
-      path: '/oldman',
-      name: 'oldman',
-      component: oldman
+      path: '/DetailPage',
+      name: 'DetailPage',
+      component: DetailPage
     }
   ]
 })

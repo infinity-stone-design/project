@@ -1,14 +1,14 @@
 module.exports = {
-    devServer:{
+    devServer: {
         proxy:{
             '/api':{
-                target:'http://localhost:3000/api',
-                changeOrigin:true,
+                target : 'http://localhost:3000/api',
+                changeOrigin: true,
                 pathRewrite:{
                     '^/api':''
                 }
             }
         }
     },
-    outputDir: '../backend/public',
+    outputDir:'../backend/public',
 }
